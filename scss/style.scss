@@ -1,0 +1,10 @@
+/* This file imports partials t be compiled into one style sheet which is then attached to the html
+
+All the files that are prefixed with an underscore like "_name-of-file.scss" are partials which will be comped into this file. 
+*/
+
+/* dont include the underscore in any name */
+@import 'base';
+/* includes all variables */ 
+@import 'mixins';
+@import 'components/main';

@@ -4,13 +4,13 @@
     $deepblue: #092E42;
     $medteal:#8ABDB3;
     $pale: #E9F1EA;
-    $green: #E9F1EA;
+    $green: #5AA875;
+    $grey: #E4E4E4;
+    $bkg: $grey;
+    $drkgrey: darken($grey, 90%);
+    $deeppale:darken($pale, 80%);
 
 //fonts
-    $helvetica:helvetica,futura,sans-serif;
-    $white: white;
+    $font:'Raleway', sans-serif;
 
 //bkg
-    $bkg: #aaa;
-    $drkbkg: lighten($bkg, 90%);
-    $purple:#703401;

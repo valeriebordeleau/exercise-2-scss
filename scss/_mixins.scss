@@ -8,15 +8,5 @@ when you have a mixin with arguements you write @include($arguement1, arguement2
 */
 
 @mixin button($background, $font, $hover) {
-    background-color: $background;
-    padding: 2em;
-    border-radius: 3px;
-    margin: 1em;
-    display: inline-block;
-    text-decoration: none;
-    transition: all 150ms ease-in-out;
-    color: $font;
-    &:hover{
-        background-color: $hover;
-    }
+  
 }

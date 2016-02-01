@@ -45,13 +45,12 @@ body {
   text-decoration: none;
   color: #E9F1EA;
   font-size: 2em;
-  transition: all 300ms linear;
+  color: #E4E4E4;
+  transition: 300ms ease;
 }
 
-.item:hover,
-.item:active,
-.item:focus {
-  color: #1a281c;
+.item:hover {
+  color: #cbcbcb;
 }
 
 .item i {
@@ -82,6 +81,9 @@ body {
   border-radius: 50px 5px 50px 5px;
   overflow: hidden;
   box-shadow: 0px 1px 20px 2px rgba(35, 31, 32, 0.18);
+  background-image: url(../artwork/pattern.svg);
+  background-repeat: repeat;
+  background-size: 1em;
 }
 
 /* toggle stuff */
@@ -94,16 +96,8 @@ body {
   padding-left: .5em;
   padding-bottom: 0em;
   display: block;
-  font-size: 2.5em;
+  font-size: 1.5em;
   opacity: 1;
-  color: white;
-  transition: all 300ms linear;
-}
-
-.toggle-icon:hover,
-.toggle-icon:active,
-.toggle-icon:focus {
-  color: #162A38;
 }
 
 .toggle-icon {
@@ -142,7 +136,12 @@ body {
 .username {
   margin: 0;
   padding: 0 0 .25em 0;
-  color: white;
+  color: #E4E4E4;
+  transition: 300ms ease;
+}
+
+.username:hover {
+  color: #cbcbcb;
 }
 
 .nav-bar {

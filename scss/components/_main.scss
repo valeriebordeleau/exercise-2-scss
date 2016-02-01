@@ -67,7 +67,7 @@ body {
     margin: .5em;
     background-color: $lightergrey;
     border: 2px solid $grey;
-    border-radius: 30px;
+    border-radius: 50px 5px 50px 5px;
     overflow: hidden;
     box-shadow: $shadow;
 }
@@ -140,4 +140,10 @@ body {
     box-shadow: $shadow;
     margin: 0;
     padding: 0;
+}
+
+@media only screen and (min-width: 30em){
+    .character {
+        max-height: 30em;
+    }
 }

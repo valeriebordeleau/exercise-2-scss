@@ -9,8 +9,10 @@
     $bkg: $grey;
     $drkgrey: darken($grey, 90%);
     $deeppale:darken($pale, 80%);
+    $lightergrey: lighten($grey,6%);
 
 //fonts
     $font:'Raleway', sans-serif;
 
-//bkg
+//shadow
+    $shadow: 0px 1px 20px 2px rgba(35, 31, 32, 0.18);

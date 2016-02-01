@@ -47,19 +47,7 @@ body {
 }
 
 .source {
-    text-decoration: none;
-    color:#162A38;
-    opacity: .5;
-    font-size: .75em;
-    padding-top: 1.13em;
-    padding-left: 1.13em;
-    transition: all 300ms linear;
-}
-
-.source:hover,
-.source:active,
-.source:focus{
-    opacity: 1;
+    @include link ($drkgrey,$grey);
 }
 
 .box {

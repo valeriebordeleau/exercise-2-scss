@@ -60,18 +60,15 @@ body {
 
 .source {
   text-decoration: none;
-  color: #162A38;
-  opacity: .5;
+  color: #cbcbcb;
   font-size: .75em;
   padding-top: 1.13em;
   padding-left: 1.13em;
   transition: all 300ms linear;
 }
 
-.source:hover,
-.source:active,
-.source:focus {
-  opacity: 1;
+.source:hover {
+  color: #E4E4E4;
 }
 
 .box {
